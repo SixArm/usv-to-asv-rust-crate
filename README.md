@@ -61,9 +61,9 @@ cat example.usv | usv-to-asv
 Output:
 
 ```asv
-a1F}b1F}c1F}1E}
-d1F}e1F}f1F}1E}
-g1F}h1F}i1F}1E}
+a\u{001F}b\u{001F}c\u{001F}\u{001E}
+d\u{001F}e\u{001F}f\u{001F}\u{001E}
+g\u{001F}h\u{001F}i\u{001F}\u{001E}
 ```
 
 ## FAQ
@@ -76,9 +76,8 @@ A typical use case is when you have USV data, such as a collection of units and
 records, and you want to convert it to ASV data, such as for a spreadsheet
 import.
 
-Our real-world use case is converting a bunch of USV document-oriented data
-from a variety of programs, including a CMS, to USV so we're better-able to
-import the data into Excel.
+Our real-world use case is converting a bunch of document-oriented data from a
+variety of programs to a variety of data formats, spreadsheets, and databases.
 
 ### Is there a similar command to convert from ASV to USV?
 
