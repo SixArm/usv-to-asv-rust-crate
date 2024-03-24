@@ -47,9 +47,8 @@
 //! Suppose example.usv contains:
 //!
 //! ```usv
-//! a␟b␟c␟␞
-//! d␟e␟f␟␞
-//! g␟h␟i␟␞
+//! a␟b␟␞
+//! c␟d␟␞
 //! ```
 //!
 //! Run:
@@ -61,9 +60,8 @@
 //! Output:
 //!
 //! ```asv
-//! a\u{001F}b\u{001F}c\u{001F}\u{001E}
-//! d\u{001F}e\u{001F}f\u{001F}\u{001E}
-//! g\u{001F}h\u{001F}i\u{001F}\u{001E}
+//! a\u001Fb\u001F\u001E
+//! c\u001Fd\u001F\u001E
 //! ```
 //!
 //! ## FAQ
@@ -100,9 +98,9 @@
 //! ## Tracking
 //!
 //! * Package: usv-to-asv-rust-crate
-//! * Version: 1.0.0
+//! * Version: 1.3.0
 //! * Created: 2024-03-09T13:33:20Z
-//! * Updated: 2024-03-12T12:55:19Z
+//! * Updated: 2024-03-24T21:52:09Z
 //! * License: MIT or Apache-2.0 or GPL-2.0 or GPL-3.0 or contact us for more
 //! * Contact: Joel Parker Henderson (joel@sixarm.com)
 

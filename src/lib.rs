@@ -6,10 +6,12 @@ pub fn usv_to_asv<
     usv: S,
 ) -> String {
     usv.as_ref()
-    .replace("␜", "\u{001C}")
-    .replace("␝", "\u{001D}")
+    .replace("␟", "\u{001F}") 
     .replace("␞", "\u{001E}")
-    .replace("␟", "\u{001F}")
+    .replace("␝", "\u{001D}")
+    .replace("␜", "\u{001C}")
+    .replace("␛", "\u{001B}")
+    .replace("␄", "\u{0004}")
 }
 
 #[cfg(test)]
