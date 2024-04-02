@@ -47,8 +47,7 @@ Link: [https://crates.io/crates/usv-to-asv](https://crates.io/crates/usv-to-asv)
 Suppose example.usv contains:
 
 ```usv
-a␟b␟␞
-c␟d␟␞
+a␟b␞c␟d
 ```
 
 Run:
@@ -60,8 +59,7 @@ cat example.usv | usv-to-asv
 Output:
 
 ```asv
-a\u001Fb\u001F\u001E
-c\u001Fd\u001F\u001E
+a\u001Fb\u001Ec\u001Fd
 ```
 
 ## FAQ
@@ -103,8 +101,8 @@ Constructive feedback welcome. Pull requests and feature requests welcome.
 ## Tracking
 
 * Package: usv-to-asv-rust-crate
-* Version: 1.3.2
+* Version: 1.4.0
 * Created: 2024-03-09T13:33:20Z
-* Updated: 2024-03-26T17:46:08Z
+* Updated: 2024-04-02T22:56:34Z
 * License: MIT or Apache-2.0 or GPL-2.0 or GPL-3.0 or contact us for more
 * Contact: Joel Parker Henderson (joel@sixarm.com)
