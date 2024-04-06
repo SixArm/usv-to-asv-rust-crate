@@ -96,6 +96,11 @@
 //! Yes and we've submitted the first draft of the USV standard to the IETF:
 //! [link](https://datatracker.ietf.org/doc/draft-unicode-separated-values/).
 //!
+//! ### Can I build my own USV tools?
+//!
+//! Yes, and you may freely use the
+//! [USV Rust crate](https://github.com/sixarm/usv-rust-crate).
+//!
 //! ## Help wanted
 //!
 //! Constructive feedback welcome. Pull requests and feature requests welcome.
