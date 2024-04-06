@@ -1,6 +1,10 @@
 # usv-to-asv
 
-Convert [Unicode Separated Values (USV)](https://github.com/sixarm/usv) to ASCII Separated Values (ASV).
+Convert
+[Unicode Separated Values (USV)](https://github.com/sixarm/usv)
+to
+[ASCII Separated Values (ASV)](https://github.com/SixArm/usv/tree/main/doc/comparisons/asv).
+Built with the [USV Rust crate](https://crates.io/crate/usv).
 
 Syntax:
 
