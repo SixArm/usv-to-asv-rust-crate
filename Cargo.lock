@@ -570,7 +570,7 @@ checksum = "40ad8fde44cc4cec4f7264e1fc6fbd649affa02e72b8da39455183b00ebbcb3e"
 
 [[package]]
 name = "usv-to-asv"
-version = "1.5.1"
+version = "1.5.2"
 dependencies = [
  "clap",
  "criterion",
